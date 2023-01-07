@@ -1,9 +1,9 @@
 {
-  "name": "test",
+  "name": "Schlandor",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "npm run dev:h5",
+    "dev": "npm run dev:h5",
     "mini": "npm run dev:mp-weixin",
     "build": "npm run build:h5",
     "build:app-plus": "cross-env NODE_ENV=production UNI_PLATFORM=app-plus vue-cli-service uni-build",
@@ -72,6 +72,7 @@
     "core-js": "^3.6.5",
     "flyio": "^0.6.2",
     "regenerator-runtime": "^0.12.1",
+    "uview-ui": "^2.0.31",
     "vue": "^2.6.11",
     "vuex": "^3.2.0"
   },
@@ -96,6 +97,8 @@
     "mini-types": "*",
     "miniprogram-api-typings": "*",
     "postcss-comment": "^2.0.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^10.4.1",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
