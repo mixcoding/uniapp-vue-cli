@@ -1,0 +1,62 @@
+.u-flex {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+/* 由于align-items: flex-start在后面，故覆盖了"u-flex"的align-items: center */
+.u-col-top {
+	align-items: flex-start;
+}
+
+/* 垂直居中 */
+.u-col-center {
+	align-items: center;
+}
+
+/* 顶部对齐 */
+.u-col-top {
+	align-items: flex-start;
+}
+
+/* 底部对齐 */
+.u-col-bottom {
+	align-items: flex-end;
+}
+
+/* 左边对齐 */
+.u-row-left {
+	justify-content: flex-start;
+}
+
+/* 水平居中 */
+.u-row-center {
+	justify-content: center;
+}
+
+/* 右边对齐 */
+.u-row-right {
+	justify-content: flex-end;
+}
+
+/* 水平两端对齐，项目之间的间隔都相等 */
+.u-row-between {
+	justify-content: space-between;
+}
+
+/* 水平每个项目两侧的间隔相等，所以项目之间的间隔比项目与父元素两边的间隔大一倍 */
+.u-row-around {
+	justify-content: space-around;
+}
+
+.line {
+	padding: 12rpx 0;
+}
+
+.u-m-t-24 {
+	margin-top: 24rpx;
+}
+
+.u-m-b-24 {
+	margin-bottom: 24rpx;
+}
